@@ -1,0 +1,22 @@
+$baseFontFamily: Tenor Sans;
+@import url(http://fonts.googleapis.com/css?family=Tenor+Sans);
+
+$navbarBackgroundHighlight: lighten(gray, 50%);
+$navbarBackground: gray;
+$btnPrimaryBackground: gray;
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+}
+
+@import 'bootstrap-responsive';
+
+.footer {
+	margin-top: 50px;
+	color: $grayLight;
+	a {
+		color: $gray;
+	}
+}
