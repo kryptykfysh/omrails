@@ -15,3 +15,6 @@
 /tmp
 doc/
 *.swp
+
+# Ignore Paperclip uploaded files.
+/public/system
